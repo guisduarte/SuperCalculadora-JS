@@ -140,21 +140,21 @@ function calcular() {
     let a = parseFloat(inputA);
     let b = parseFloat(inputB);  
     
-    soma.innerHTML = somar(a, b);
-    subtracaoAporB.innerHTML = subtrairAporB (a, b);
-    subtracaoBporA.innerHTML = subtrairBporA (a, b);
-    multiplicacao.innerHTML = multiplicar (a, b);
+    soma.innerHTML = somar(a, b).toFixed(2);
+    subtracaoAporB.innerHTML = subtrairAporB (a, b).toFixed(2);
+    subtracaoBporA.innerHTML = subtrairBporA (a, b).toFixed(2);
+    multiplicacao.innerHTML = multiplicar (a, b).toFixed(2);
     divAeB.innerHTML = dividirAporB (a, b).toFixed(2);
     divBeA .innerHTML = dividirBporA (a, b).toFixed(2);
-    potenciaAeB.innerHTML = potenciaDeAnaBaseB (a, b);
-    potenciaBeA.innerHTML = potenciaDeBnaBaseA (a, b);
+    potenciaAeB.innerHTML = potenciaDeAnaBaseB (a, b).toFixed(2);
+    potenciaBeA.innerHTML = potenciaDeBnaBaseA (a, b).toFixed(2);
     raizDeA.innerHTML = raizQuadradaDeA (a, b).toFixed(2);
     raizDeB.innerHTML = raizQuadradaDeB (a, b).toFixed(2);
-    fatorialA.innerHTML = fatorialDeA (a, b);
-    fatorialB.innerHTML = fatorialDeB (a, b);
-    porcentagemA.innerHTML = porcentagemDeAemRelacaoB (a, b);
-    porcentagemB.innerHTML = porcentagemDeBemRelacaoA (a, b);
-    media.innerHTML = calculoMedia(a,b)
+    fatorialA.innerHTML = fatorialDeA (a, b).toFixed(2);
+    fatorialB.innerHTML = fatorialDeB (a, b).toFixed(2);
+    porcentagemA.innerHTML = porcentagemDeAemRelacaoB (a, b).toFixed(2);
+    porcentagemB.innerHTML = porcentagemDeBemRelacaoA (a, b).toFixed(2);
+    media.innerHTML = calculoMedia(a,b).toFixed(2);
 
 } 
 
